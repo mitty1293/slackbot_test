@@ -1,0 +1,7 @@
+version: "3"
+services:
+    bot_test:
+        image: bot_test
+        build: ./slackbot
+        restart: always
+        container_name: bot_test
